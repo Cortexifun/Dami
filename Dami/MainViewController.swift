@@ -9,11 +9,15 @@
 import UIKit
 import FSPagerView
 
-class ViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSource {
+class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSource {
    
     fileprivate let imageNames = ["cafe1.jpg","cafe2.jpg","cafe3.jpg"]
     fileprivate let labels = ["کسشر محض","قهوه سوخته","قهوه‌ی کسشر"]
     fileprivate var numberOfItems = 3
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +40,7 @@ class ViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSourc
         let pagerView = FSPagerView(frame: .zero)
         pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
         //pagerView.itemSize = FSPagerView.automaticSize
-        pagerView.itemSize = CGSize(width: 370 , height: 750)
+        pagerView.itemSize = CGSize(width: 370 , height: 550)
         pagerView.transformer = FSPagerViewTransformer(type: .overlap)
         pagerView.backgroundColor = .clear
         pagerView.translatesAutoresizingMaskIntoConstraints = false
@@ -47,27 +51,43 @@ class ViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSourc
         let pageControl = FSPageControl(frame: .zero)
         pageControl.numberOfPages = 3
         pageControl.contentHorizontalAlignment = .left
-        pageControl.contentInsets = UIEdgeInsets(top: 0, left: 50, bottom: 0, right: 50)
-        pageControl.backgroundColor = .red
-        pageControl.layer.borderColor = UIColor.gray.cgColor
-        pageControl.layer.borderWidth = 0.5
+        pageControl.contentInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+        pageControl.backgroundColor = .clear
         pageControl.translatesAutoresizingMaskIntoConstraints = false
          return pageControl
     }()
    
+    let prepareButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.backgroundColor = UIColor.gray
+        button.layer.cornerRadius = 5
+        button.setTitle("Prepare", for: .normal)
+        button.setTitleColor(UIColor.white, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16.0)
+        button.translatesAutoresizingMaskIntoConstraints = false
+         return button
+    }()
+    
     func setupView(){
 
         view.addSubview(pager)
         view.addSubview(controller)
+        view.addSubview(prepareButton)
         
         pager.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
         pager.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -60).isActive = true
         pager.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         
-        controller.bottomAnchor.constraint(equalTo: pager.bottomAnchor, constant: 20).isActive = true
+        controller.bottomAnchor.constraint(equalTo: pager.bottomAnchor, constant: 4).isActive = true
         controller.centerXAnchor.constraint(equalTo: pager.centerXAnchor).isActive = true
         controller.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        controller.widthAnchor.constraint(equalToConstant: 70).isActive = true
+        controller.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        prepareButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -10).isActive = true
+        prepareButton.topAnchor.constraint(equalTo: controller.bottomAnchor, constant: 10).isActive = true
+        prepareButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10).isActive = true
+        prepareButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10).isActive = true
+        prepareButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
         
     }
     
