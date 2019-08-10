@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6437CB6E22FDC0B200BFAB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6437CB6D22FDC0B200BFAB0E /* AppDelegate.swift */; };
+		6437CB7022FDC0B200BFAB0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6437CB6F22FDC0B200BFAB0E /* ViewController.swift */; };
+		6437CB7522FDC0B300BFAB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6437CB7422FDC0B300BFAB0E /* Assets.xcassets */; };
+		6437CB7822FDC0B300BFAB0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6437CB7622FDC0B300BFAB0E /* LaunchScreen.storyboard */; };
+		DC45B090BF9798D6DBB0812B /* Pods_Dami.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16552BEB06691CE684C644FB /* Pods_Dami.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11DC85AD4D1C526E972682A6 /* Pods-Dami.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dami.release.xcconfig"; path = "Target Support Files/Pods-Dami/Pods-Dami.release.xcconfig"; sourceTree = "<group>"; };
+		16552BEB06691CE684C644FB /* Pods_Dami.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dami.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6437CB6A22FDC0B200BFAB0E /* Dami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6437CB6D22FDC0B200BFAB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6437CB6F22FDC0B200BFAB0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6437CB7422FDC0B300BFAB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6437CB7722FDC0B300BFAB0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6437CB7922FDC0B300BFAB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664B37045C60F061EE35D46D /* Pods-Dami.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dami.debug.xcconfig"; path = "Target Support Files/Pods-Dami/Pods-Dami.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6437CB6722FDC0B200BFAB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC45B090BF9798D6DBB0812B /* Pods_Dami.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		319962507C9BF3FC7480B538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16552BEB06691CE684C644FB /* Pods_Dami.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7C87F9AEA9B4DC3F82F55E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				664B37045C60F061EE35D46D /* Pods-Dami.debug.xcconfig */,
+				11DC85AD4D1C526E972682A6 /* Pods-Dami.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6437CB6122FDC0B200BFAB0E = {
+			isa = PBXGroup;
+			children = (
+				6437CB6C22FDC0B200BFAB0E /* Dami */,
+				6437CB6B22FDC0B200BFAB0E /* Products */,
+				3F7C87F9AEA9B4DC3F82F55E /* Pods */,
+				319962507C9BF3FC7480B538 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6437CB6B22FDC0B200BFAB0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6437CB6A22FDC0B200BFAB0E /* Dami.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6437CB6C22FDC0B200BFAB0E /* Dami */ = {
+			isa = PBXGroup;
+			children = (
+				6437CB6D22FDC0B200BFAB0E /* AppDelegate.swift */,
+				6437CB6F22FDC0B200BFAB0E /* ViewController.swift */,
+				6437CB7422FDC0B300BFAB0E /* Assets.xcassets */,
+				6437CB7622FDC0B300BFAB0E /* LaunchScreen.storyboard */,
+				6437CB7922FDC0B300BFAB0E /* Info.plist */,
+			);
+			path = Dami;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6437CB6922FDC0B200BFAB0E /* Dami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6437CB7C22FDC0B300BFAB0E /* Build configuration list for PBXNativeTarget "Dami" */;
+			buildPhases = (
+				9C532C329E9F5383146BE5E5 /* [CP] Check Pods Manifest.lock */,
+				6437CB6622FDC0B200BFAB0E /* Sources */,
+				6437CB6722FDC0B200BFAB0E /* Frameworks */,
+				6437CB6822FDC0B200BFAB0E /* Resources */,
+				7055D2D4D7ACB996E07AA692 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dami;
+			productName = Dami;
+			productReference = 6437CB6A22FDC0B200BFAB0E /* Dami.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6437CB6222FDC0B200BFAB0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Omid Tavanaei";
+				TargetAttributes = {
+					6437CB6922FDC0B200BFAB0E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6437CB6522FDC0B200BFAB0E /* Build configuration list for PBXProject "Dami" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6437CB6122FDC0B200BFAB0E;
+			productRefGroup = 6437CB6B22FDC0B200BFAB0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6437CB6922FDC0B200BFAB0E /* Dami */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6437CB6822FDC0B200BFAB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6437CB7822FDC0B300BFAB0E /* LaunchScreen.storyboard in Resources */,
+				6437CB7522FDC0B300BFAB0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7055D2D4D7ACB996E07AA692 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dami/Pods-Dami-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dami/Pods-Dami-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dami/Pods-Dami-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C532C329E9F5383146BE5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dami-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6437CB6622FDC0B200BFAB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6437CB7022FDC0B200BFAB0E /* ViewController.swift in Sources */,
+				6437CB6E22FDC0B200BFAB0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6437CB7622FDC0B300BFAB0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6437CB7722FDC0B300BFAB0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6437CB7A22FDC0B300BFAB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6437CB7B22FDC0B300BFAB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6437CB7D22FDC0B300BFAB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664B37045C60F061EE35D46D /* Pods-Dami.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QENKH96X8H;
+				INFOPLIST_FILE = Dami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cortexifun.Dami;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6437CB7E22FDC0B300BFAB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DC85AD4D1C526E972682A6 /* Pods-Dami.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QENKH96X8H;
+				INFOPLIST_FILE = Dami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cortexifun.Dami;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6437CB6522FDC0B200BFAB0E /* Build configuration list for PBXProject "Dami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6437CB7A22FDC0B300BFAB0E /* Debug */,
+				6437CB7B22FDC0B300BFAB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6437CB7C22FDC0B300BFAB0E /* Build configuration list for PBXNativeTarget "Dami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6437CB7D22FDC0B300BFAB0E /* Debug */,
+				6437CB7E22FDC0B300BFAB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6437CB6222FDC0B200BFAB0E /* Project object */;
+}
