@@ -9,7 +9,7 @@
 import UIKit
 import FSPagerView
 
-class ViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSource {
+class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSource {
    
     fileprivate let imageNames = ["cafe1.jpg","cafe2.jpg","cafe3.jpg"]
     fileprivate let labels = ["کسشر محض","قهوه سوخته","قهوه‌ی کسشر"]
@@ -36,7 +36,7 @@ class ViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSourc
         let pagerView = FSPagerView(frame: .zero)
         pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
         //pagerView.itemSize = FSPagerView.automaticSize
-        pagerView.itemSize = CGSize(width: 370 , height: 750)
+        pagerView.itemSize = CGSize(width: 370 , height: 550)
         pagerView.transformer = FSPagerViewTransformer(type: .overlap)
         pagerView.backgroundColor = .clear
         pagerView.translatesAutoresizingMaskIntoConstraints = false
@@ -47,7 +47,7 @@ class ViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSourc
         let pageControl = FSPageControl(frame: .zero)
         pageControl.numberOfPages = 3
         pageControl.contentHorizontalAlignment = .left
-        pageControl.contentInsets = UIEdgeInsets(top: 0, left: 50, bottom: 0, right: 50)
+        pageControl.contentInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
         pageControl.backgroundColor = .red
         pageControl.layer.borderColor = UIColor.gray.cgColor
         pageControl.layer.borderWidth = 0.5
