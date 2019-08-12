@@ -8,5 +8,6 @@ target 'Dami' do
   # Pods for Dami
 
    pod 'FSPagerView'
+   pod 'HGCircularSlider', '~> 2.0.0'
 
 end

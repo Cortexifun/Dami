@@ -11,9 +11,9 @@ import FSPagerView
 
 class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataSource {
    
-    fileprivate let imageNames = ["cafe1.jpg","cafe2.jpg","cafe3.jpg"]
-    fileprivate let labels = ["کسشر محض","قهوه سوخته","قهوه‌ی کسشر"]
-    fileprivate var numberOfItems = 3
+    fileprivate let imageNames = ["cafe1.jpg","cafe2.jpg","cafe3.jpg","",""]
+    fileprivate let labels = ["V60","Chemex","Syphone(Vaccum Pot)","Clever","Cold Brew"]
+    fileprivate var numberOfItems = 5
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -21,7 +21,8 @@ class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataS
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = UIColor(red:0.37, green:0.18, blue:0.08, alpha:1.0)
+        backgroundImage.clipsToBounds = true
         setupView()
         pager.dataSource = self
         pager.delegate = self
@@ -36,11 +37,19 @@ class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataS
         navigationController?.setNavigationBarHidden(false, animated: animated)
     }
     
+    let backgroundImage: UIImageView = {
+        var image: UIImage = UIImage(named: "background")!
+        let myImage = UIImageView(image: image)
+        myImage.contentMode = .scaleAspectFill
+        
+       return myImage
+    }()
+    
     let pager: FSPagerView = {
         let pagerView = FSPagerView(frame: .zero)
         pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
         //pagerView.itemSize = FSPagerView.automaticSize
-        pagerView.itemSize = CGSize(width: 370 , height: 550)
+        pagerView.itemSize = CGSize(width: 320 , height: 550)
         pagerView.transformer = FSPagerViewTransformer(type: .overlap)
         pagerView.backgroundColor = .clear
         pagerView.translatesAutoresizingMaskIntoConstraints = false
@@ -49,7 +58,7 @@ class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataS
     
     let controller: FSPageControl = {
         let pageControl = FSPageControl(frame: .zero)
-        pageControl.numberOfPages = 3
+        pageControl.numberOfPages = 5
         pageControl.contentHorizontalAlignment = .left
         pageControl.contentInsets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
         pageControl.backgroundColor = .clear
@@ -64,12 +73,18 @@ class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataS
         button.setTitle("Prepare", for: .normal)
         button.setTitleColor(UIColor.white, for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16.0)
+        button.addTarget(self, action: #selector(prepareButtonPressed) , for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
          return button
     }()
     
+    @objc func prepareButtonPressed() {
+        self.navigationController?.pushViewController(WaterCoffeeViewController(), animated: true)
+        print("pressed")
+    }
+    
     func setupView(){
-
+        view.addSubview(backgroundImage)
         view.addSubview(pager)
         view.addSubview(controller)
         view.addSubview(prepareButton)
@@ -84,7 +99,6 @@ class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataS
         controller.widthAnchor.constraint(equalToConstant: 40).isActive = true
         
         prepareButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -10).isActive = true
-        prepareButton.topAnchor.constraint(equalTo: controller.bottomAnchor, constant: 10).isActive = true
         prepareButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10).isActive = true
         prepareButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10).isActive = true
         prepareButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
@@ -109,6 +123,7 @@ class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataS
     func pagerView(_ pagerView: FSPagerView, didSelectItemAt index: Int) {
         pagerView.deselectItem(at: index, animated: true)
         pagerView.scrollToItem(at: index, animated: true)
+        
     }
     
     func pagerViewWillEndDragging(_ pagerView: FSPagerView, targetIndex: Int) {
@@ -118,7 +133,6 @@ class MainViewController: UIViewController,FSPagerViewDelegate, FSPagerViewDataS
     func pagerViewDidEndScrollAnimation(_ pagerView: FSPagerView) {
         controller.currentPage = pagerView.currentIndex
     }
-    
 
 }
 

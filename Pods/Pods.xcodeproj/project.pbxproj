@@ -3,30 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13037534707325E720C455A15B676C09 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C06B097E8F29204C8C55528C6363B /* FSPagerView.swift */; };
-		2E6FB00F7E7D0788EFC5B70A0C7FA7BE /* Pods-Dami-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6AADEA2674D43BA325FF76FD0AFA64 /* Pods-Dami-dummy.m */; };
+		0D8DAC677F65E225060D756B4163EBAE /* CircularSliderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1339BFC5608B1456D2889379DCEF56 /* CircularSliderHelper.swift */; };
+		13037534707325E720C455A15B676C09 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A3D326B1F6C889A43FC68F27918643 /* FSPagerView.swift */; };
 		2F18D841B041A79D6055BD03988CFF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		432F909DF6601268860285678F648DF6 /* FSPagerViewObjcCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 383D0A1A1DC85B0089FEDC99D22B27AC /* FSPagerViewObjcCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BBFE53B86AC5E1B74A6CA34E21506BD /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2D3B2378E4CD16BC841B266C8A272 /* FSPagerView-dummy.m */; };
-		5130804321FDC6F666AFE54DB06FBD94 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781F36EE56DCE37CDA3078BE195721DF /* FSPageViewTransformer.swift */; };
-		567B9EFE8A6837AC1E38E4AF2A5DDC0A /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F611C07247ADF94CD3CDF5770A0137A /* FSPagerCollectionView.swift */; };
-		5C0EE44BBDC1B2BCF362544C05DD97BB /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2583260A9B8D0D2130E94AA636B03E96 /* FSPagerViewCell.swift */; };
-		735D7841B3D13C727997B9A9F2B638C8 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A4821E9DD63121D2ACF345F7314F /* FSPageViewLayout.swift */; };
-		8A48D7E3090FE3D148450A73E6B69010 /* Pods-Dami-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940DADA7135C09F7822E859AEACCFC36 /* Pods-Dami-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8CD53C77803CB0D8ED75E00A0198413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		C2CA1E46D2D91E96732C274438B4B865 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = F23F91CFD2F5C75ED71945DD10D64FD4 /* FSPagerViewObjcCompat.m */; };
-		CF3FCEC36483DA9EB62DA706E9C96370 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34ACEF7BC38419F7448F6113E3CEF7 /* FSPageControl.swift */; };
-		D43E533B93813D47CC6B8402913DFE76 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AABAA98EA82042304FE2042CF1F61E58 /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		432F909DF6601268860285678F648DF6 /* FSPagerViewObjcCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 798646CB5E0C55F1D39FB86123CD1151 /* FSPagerViewObjcCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBFE53B86AC5E1B74A6CA34E21506BD /* FSPagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3568D8E449405896FA36DC4C0B757B0 /* FSPagerView-dummy.m */; };
+		50A626FD2F37916DDF00B9D58BFDE8C8 /* HGCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671247CF775E56FA1EF9A45CBA5D9CAA /* HGCircularSlider-dummy.m */; };
+		5130804321FDC6F666AFE54DB06FBD94 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D801D47FED75AAA2933997AD334EA71E /* FSPageViewTransformer.swift */; };
+		567B9EFE8A6837AC1E38E4AF2A5DDC0A /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF31BFD781718A7B5C7D74818E4D5E /* FSPagerCollectionView.swift */; };
+		5C0EE44BBDC1B2BCF362544C05DD97BB /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309CAD38E4441E10F74311C2CED54FC0 /* FSPagerViewCell.swift */; };
+		735D7841B3D13C727997B9A9F2B638C8 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7D91F4783EB70B13D1B19E7B76AF7 /* FSPageViewLayout.swift */; };
+		874BABD0FF3A02AA028495A52F81F9D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8F26DEB1FF3DC53BD532B82155634FED /* Pods-Dami-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6AADEA2674D43BA325FF76FD0AFA64 /* Pods-Dami-dummy.m */; };
+		9E70019F0D74B4F70A3CEBBCAFAF020D /* Pods-Dami-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940DADA7135C09F7822E859AEACCFC36 /* Pods-Dami-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC077B3990D8DFB3F07BDEED647AA8FB /* HGCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9743B76F0006321BB0228F4FBC53C1AF /* HGCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B293412387190A62F5526D3AA707E435 /* CircularSlider+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742EC47F0D1503AE04CCFD418FCE1A0 /* CircularSlider+Draw.swift */; };
+		B5CDDB1C4F475CFA382669B00B654615 /* MidPointCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A422AF18B808B5BB25BCECD473E6F11 /* MidPointCircularSlider.swift */; };
+		C2CA1E46D2D91E96732C274438B4B865 /* FSPagerViewObjcCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3895015D064D23A11E8CC9C1F4B5D34B /* FSPagerViewObjcCompat.m */; };
+		CF3FCEC36483DA9EB62DA706E9C96370 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FB09B0293D71DE3917981AECABF752 /* FSPageControl.swift */; };
+		D43E533B93813D47CC6B8402913DFE76 /* FSPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BB94715693607CA5A8A5D00E59DDCF /* FSPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5DD40E0B475A275E077B1F4FEB6F081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		D862B4712E1975A02647289E097912E8 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0306C3A3A5B26DFB0304EAB1D1A489F7 /* FSPagerViewLayoutAttributes.swift */; };
+		D81F791D3B060F985DC931F6D676B98B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		D862B4712E1975A02647289E097912E8 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5E58095426299835DC09A3D654F71 /* FSPagerViewLayoutAttributes.swift */; };
+		DBA9E302BE049D3F49F6C679CDBA55EB /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ED46BC99065FF421DA1F4E5BD95FDA /* CircularSlider.swift */; };
+		F6FDFE4172E22B1801F881C10D6DA2EE /* RangeCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8856ACA6AF9F8CC27BFA57AD13852D6 /* RangeCircularSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D00AA6F15441DCA2A9AA5877C5D9F966 /* PBXContainerItemProxy */ = {
+		A52A4C0AFD43237E4998DD4FB9C4CAF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EEAE7DB07C6F17150BFE2EAD014CB2;
+			remoteInfo = HGCircularSlider;
+		};
+		EA87EC4820F95245E002145A776B775A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -36,52 +51,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0306C3A3A5B26DFB0304EAB1D1A489F7 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
-		057C32EBCA88FD306925AC8B20241251 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSPagerView.modulemap; sourceTree = "<group>"; };
-		16177521E6B083B1161C154157D8D1FB /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPagerView.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		180A9A1B4FAA95A322606511A38136B0 /* FSPagerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSPagerView-Info.plist"; sourceTree = "<group>"; };
-		2583260A9B8D0D2130E94AA636B03E96 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
+		15324E77A51185C96DC76781162260A4 /* FSPagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSPagerView.modulemap; sourceTree = "<group>"; };
+		2742EC47F0D1503AE04CCFD418FCE1A0 /* CircularSlider+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CircularSlider+Draw.swift"; path = "HGCircularSlider/Classes/CircularSlider+Draw.swift"; sourceTree = "<group>"; };
+		27BF97A9DD25F15119F6A74B5244A910 /* FSPagerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSPagerView-Info.plist"; sourceTree = "<group>"; };
+		309CAD38E4441E10F74311C2CED54FC0 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewCell.swift; path = Sources/FSPagerViewCell.swift; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		383D0A1A1DC85B0089FEDC99D22B27AC /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPagerViewObjcCompat.h; path = Sources/FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		3895015D064D23A11E8CC9C1F4B5D34B /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPagerViewObjcCompat.m; path = Sources/FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
 		3D9187C8684CDDAF77CD39D9C5D8214A /* Pods-Dami.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dami.debug.xcconfig"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4B28D6D1A2606253D90ED3D7FE465FB8 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
-		4F611C07247ADF94CD3CDF5770A0137A /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		4DE556A440AA902DDBACD8E993876F65 /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
 		4FBA5A7386F40D7D6CC7B0CB29861065 /* Pods-Dami.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dami.modulemap"; sourceTree = "<group>"; };
-		55D2D3B2378E4CD16BC841B266C8A272 /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
+		5022ECBA482FE822B23410687951120E /* HGCircularSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HGCircularSlider-Info.plist"; sourceTree = "<group>"; };
+		51ED46BC99065FF421DA1F4E5BD95FDA /* CircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSlider.swift; path = HGCircularSlider/Classes/CircularSlider.swift; sourceTree = "<group>"; };
 		58FAEE8728C0C503010881704A17376C /* Pods-Dami-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dami-frameworks.sh"; sourceTree = "<group>"; };
-		781F36EE56DCE37CDA3078BE195721DF /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		66BA5E109D3B43F37C690C883755782F /* HGCircularSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HGCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		671247CF775E56FA1EF9A45CBA5D9CAA /* HGCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HGCircularSlider-dummy.m"; sourceTree = "<group>"; };
+		6A422AF18B808B5BB25BCECD473E6F11 /* MidPointCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MidPointCircularSlider.swift; path = HGCircularSlider/Classes/MidPointCircularSlider.swift; sourceTree = "<group>"; };
+		798646CB5E0C55F1D39FB86123CD1151 /* FSPagerViewObjcCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSPagerViewObjcCompat.h; path = Sources/FSPagerViewObjcCompat.h; sourceTree = "<group>"; };
+		7B1339BFC5608B1456D2889379DCEF56 /* CircularSliderHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSliderHelper.swift; path = HGCircularSlider/Classes/CircularSliderHelper.swift; sourceTree = "<group>"; };
+		8AB7D91F4783EB70B13D1B19E7B76AF7 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
+		92A3D326B1F6C889A43FC68F27918643 /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
+		93E5E58095426299835DC09A3D654F71 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerViewLayoutAttributes.swift; path = Sources/FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
 		940DADA7135C09F7822E859AEACCFC36 /* Pods-Dami-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dami-umbrella.h"; sourceTree = "<group>"; };
+		9743B76F0006321BB0228F4FBC53C1AF /* HGCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-umbrella.h"; sourceTree = "<group>"; };
+		978A346F111E00C65F2D29A1F774CB9B /* HGCircularSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HGCircularSlider.xcconfig; sourceTree = "<group>"; };
 		9794C95BD4395B931B26EBD90158A6BF /* Pods-Dami-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dami-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3FB09B0293D71DE3917981AECABF752 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
+		A764C92EF370AF4BA6F127F21C7AB282 /* FSPagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-prefix.pch"; sourceTree = "<group>"; };
+		A7EF31BFD781718A7B5C7D74818E4D5E /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerCollectionView.swift; path = Sources/FSPagerCollectionView.swift; sourceTree = "<group>"; };
 		AA6AADEA2674D43BA325FF76FD0AFA64 /* Pods-Dami-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dami-dummy.m"; sourceTree = "<group>"; };
-		AAA16AC455473C7FC995D99B4533140B /* Pods_Dami.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dami.framework; path = "Pods-Dami.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABAA98EA82042304FE2042CF1F61E58 /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
+		B3568D8E449405896FA36DC4C0B757B0 /* FSPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPagerView-dummy.m"; sourceTree = "<group>"; };
+		B7BB94715693607CA5A8A5D00E59DDCF /* FSPagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPagerView-umbrella.h"; sourceTree = "<group>"; };
 		BC030D434D0F8087001786D6F57FE82D /* Pods-Dami.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dami.release.xcconfig"; sourceTree = "<group>"; };
-		BD34ACEF7BC38419F7448F6113E3CEF7 /* FSPageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageControl.swift; path = Sources/FSPageControl.swift; sourceTree = "<group>"; };
-		BD5BFE9AB1F88634809583A7083D892D /* FSPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPagerView.xcconfig; sourceTree = "<group>"; };
 		C1FA2473D8F0CCD1E407F9D52258BA90 /* Pods-Dami-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dami-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBF684578D3B7F4B6B41DB59B90F70E8 /* Pods-Dami-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dami-Info.plist"; sourceTree = "<group>"; };
-		E8B2A4821E9DD63121D2ACF345F7314F /* FSPageViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewLayout.swift; path = Sources/FSPageViewLayout.swift; sourceTree = "<group>"; };
-		F23F91CFD2F5C75ED71945DD10D64FD4 /* FSPagerViewObjcCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSPagerViewObjcCompat.m; path = Sources/FSPagerViewObjcCompat.m; sourceTree = "<group>"; };
-		F53C06B097E8F29204C8C55528C6363B /* FSPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPagerView.swift; path = Sources/FSPagerView.swift; sourceTree = "<group>"; };
+		D801D47FED75AAA2933997AD334EA71E /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FSPageViewTransformer.swift; path = Sources/FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		DF5DC6BFE23F54312DE20F9164A107E9 /* HGCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HGCircularSlider-prefix.pch"; sourceTree = "<group>"; };
+		E8856ACA6AF9F8CC27BFA57AD13852D6 /* RangeCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeCircularSlider.swift; path = HGCircularSlider/Classes/RangeCircularSlider.swift; sourceTree = "<group>"; };
+		E9CC1CF0EA9BE0B899C35938E404EC8C /* Pods_Dami.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dami.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A540F414B154182A2A26B56299B674 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F439C96F5025D8317ECCABD01614AAA7 /* HGCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HGCircularSlider.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		58C2838763F525FD8F8DB91D9975B2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874BABD0FF3A02AA028495A52F81F9D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64491AD1E3EFAC433C4378F497909E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81F791D3B060F985DC931F6D676B98B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACF19306AFCD6982766AD1502D855597 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D5DD40E0B475A275E077B1F4FEB6F081 /* Foundation.framework in Frameworks */,
 				2F18D841B041A79D6055BD03988CFF44 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B33F09A43DEAA8F79275FE1DDC192941 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8CD53C77803CB0D8ED75E00A0198413 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,35 +131,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1723F770B864982B41721D5E96B93BE7 /* Support Files */ = {
+		31D2BB97F1B0AAD594EB49D4A5F1558B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				057C32EBCA88FD306925AC8B20241251 /* FSPagerView.modulemap */,
-				BD5BFE9AB1F88634809583A7083D892D /* FSPagerView.xcconfig */,
-				55D2D3B2378E4CD16BC841B266C8A272 /* FSPagerView-dummy.m */,
-				180A9A1B4FAA95A322606511A38136B0 /* FSPagerView-Info.plist */,
-				4B28D6D1A2606253D90ED3D7FE465FB8 /* FSPagerView-prefix.pch */,
-				AABAA98EA82042304FE2042CF1F61E58 /* FSPagerView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FSPagerView";
-			sourceTree = "<group>";
-		};
-		5437C4208ED300FD068C08A8D6CD32F8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				16177521E6B083B1161C154157D8D1FB /* FSPagerView.framework */,
-				AAA16AC455473C7FC995D99B4533140B /* Pods_Dami.framework */,
+				F2A540F414B154182A2A26B56299B674 /* FSPagerView.framework */,
+				66BA5E109D3B43F37C690C883755782F /* HGCircularSlider.framework */,
+				E9CC1CF0EA9BE0B899C35938E404EC8C /* Pods_Dami.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DE3D0F0B06A6B1366B094D3727C370C /* Pods */ = {
+		357BF40F506CEAE41FB8874901C33B01 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				95983E558BD520E6CB84ACF0376BAB1C /* FSPagerView */,
+				FF0687D5067A417ED365ECFCE211BAD0 /* FSPagerView */,
+				464CFB5EFA1E78B2BAE44837C87482AE /* HGCircularSlider */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		464CFB5EFA1E78B2BAE44837C87482AE /* HGCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				51ED46BC99065FF421DA1F4E5BD95FDA /* CircularSlider.swift */,
+				2742EC47F0D1503AE04CCFD418FCE1A0 /* CircularSlider+Draw.swift */,
+				7B1339BFC5608B1456D2889379DCEF56 /* CircularSliderHelper.swift */,
+				6A422AF18B808B5BB25BCECD473E6F11 /* MidPointCircularSlider.swift */,
+				E8856ACA6AF9F8CC27BFA57AD13852D6 /* RangeCircularSlider.swift */,
+				99633FA15D65B39017A2FF3139A8D334 /* Support Files */,
+			);
+			path = HGCircularSlider;
+			sourceTree = "<group>";
+		};
+		55671CC3310290AD18790C237DAEA4D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15324E77A51185C96DC76781162260A4 /* FSPagerView.modulemap */,
+				4DE556A440AA902DDBACD8E993876F65 /* FSPagerView.xcconfig */,
+				B3568D8E449405896FA36DC4C0B757B0 /* FSPagerView-dummy.m */,
+				27BF97A9DD25F15119F6A74B5244A910 /* FSPagerView-Info.plist */,
+				A764C92EF370AF4BA6F127F21C7AB282 /* FSPagerView-prefix.pch */,
+				B7BB94715693607CA5A8A5D00E59DDCF /* FSPagerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSPagerView";
 			sourceTree = "<group>";
 		};
 		70A333BD353C673D6E1C02103C5F4288 /* Pods-Dami */ = {
@@ -144,22 +194,18 @@
 			path = "Target Support Files/Pods-Dami";
 			sourceTree = "<group>";
 		};
-		95983E558BD520E6CB84ACF0376BAB1C /* FSPagerView */ = {
+		99633FA15D65B39017A2FF3139A8D334 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD34ACEF7BC38419F7448F6113E3CEF7 /* FSPageControl.swift */,
-				4F611C07247ADF94CD3CDF5770A0137A /* FSPagerCollectionView.swift */,
-				F53C06B097E8F29204C8C55528C6363B /* FSPagerView.swift */,
-				2583260A9B8D0D2130E94AA636B03E96 /* FSPagerViewCell.swift */,
-				0306C3A3A5B26DFB0304EAB1D1A489F7 /* FSPagerViewLayoutAttributes.swift */,
-				383D0A1A1DC85B0089FEDC99D22B27AC /* FSPagerViewObjcCompat.h */,
-				F23F91CFD2F5C75ED71945DD10D64FD4 /* FSPagerViewObjcCompat.m */,
-				E8B2A4821E9DD63121D2ACF345F7314F /* FSPageViewLayout.swift */,
-				781F36EE56DCE37CDA3078BE195721DF /* FSPageViewTransformer.swift */,
-				1723F770B864982B41721D5E96B93BE7 /* Support Files */,
+				F439C96F5025D8317ECCABD01614AAA7 /* HGCircularSlider.modulemap */,
+				978A346F111E00C65F2D29A1F774CB9B /* HGCircularSlider.xcconfig */,
+				671247CF775E56FA1EF9A45CBA5D9CAA /* HGCircularSlider-dummy.m */,
+				5022ECBA482FE822B23410687951120E /* HGCircularSlider-Info.plist */,
+				DF5DC6BFE23F54312DE20F9164A107E9 /* HGCircularSlider-prefix.pch */,
+				9743B76F0006321BB0228F4FBC53C1AF /* HGCircularSlider-umbrella.h */,
 			);
-			name = FSPagerView;
-			path = FSPagerView;
+			name = "Support Files";
+			path = "../Target Support Files/HGCircularSlider";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -167,8 +213,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				5DE3D0F0B06A6B1366B094D3727C370C /* Pods */,
-				5437C4208ED300FD068C08A8D6CD32F8 /* Products */,
+				357BF40F506CEAE41FB8874901C33B01 /* Pods */,
+				31D2BB97F1B0AAD594EB49D4A5F1558B /* Products */,
 				F5CE280D6DEC55C57DA09E3426B683C5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -190,14 +236,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FF0687D5067A417ED365ECFCE211BAD0 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				A3FB09B0293D71DE3917981AECABF752 /* FSPageControl.swift */,
+				A7EF31BFD781718A7B5C7D74818E4D5E /* FSPagerCollectionView.swift */,
+				92A3D326B1F6C889A43FC68F27918643 /* FSPagerView.swift */,
+				309CAD38E4441E10F74311C2CED54FC0 /* FSPagerViewCell.swift */,
+				93E5E58095426299835DC09A3D654F71 /* FSPagerViewLayoutAttributes.swift */,
+				798646CB5E0C55F1D39FB86123CD1151 /* FSPagerViewObjcCompat.h */,
+				3895015D064D23A11E8CC9C1F4B5D34B /* FSPagerViewObjcCompat.m */,
+				8AB7D91F4783EB70B13D1B19E7B76AF7 /* FSPageViewLayout.swift */,
+				D801D47FED75AAA2933997AD334EA71E /* FSPageViewTransformer.swift */,
+				55671CC3310290AD18790C237DAEA4D2 /* Support Files */,
+			);
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		67F759A519791F22DD2E4DBA799533FF /* Headers */ = {
+		9CF3004F9DA611A4197F76B5A3407B08 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A48D7E3090FE3D148450A73E6B69010 /* Pods-Dami-umbrella.h in Headers */,
+				9E70019F0D74B4F70A3CEBBCAFAF020D /* Pods-Dami-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,9 +273,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E54AE82993A9E68A4DE8CCA374539F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC077B3990D8DFB3F07BDEED647AA8FB /* HGCircularSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C816C0923FEE093963324871AEF11 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */;
+			buildPhases = (
+				E54AE82993A9E68A4DE8CCA374539F49 /* Headers */,
+				FD8AA6ECD7048C2FB98943C1A88C0245 /* Sources */,
+				58C2838763F525FD8F8DB91D9975B2C0 /* Frameworks */,
+				D9BD7A942B6568DAC130B845C7CD07F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGCircularSlider;
+			productName = HGCircularSlider;
+			productReference = 66BA5E109D3B43F37C690C883755782F /* HGCircularSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1423927F428951A47295BA7F353F0715 /* Build configuration list for PBXNativeTarget "FSPagerView" */;
@@ -228,26 +317,27 @@
 			);
 			name = FSPagerView;
 			productName = FSPagerView;
-			productReference = 16177521E6B083B1161C154157D8D1FB /* FSPagerView.framework */;
+			productReference = F2A540F414B154182A2A26B56299B674 /* FSPagerView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAC3C85E85573768F81F4742E96E1561 /* Pods-Dami */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7929B3F3E7AD0CECDEA1E4B512BB55B1 /* Build configuration list for PBXNativeTarget "Pods-Dami" */;
+			buildConfigurationList = 69237338115A3BD7EA9D20AA41337834 /* Build configuration list for PBXNativeTarget "Pods-Dami" */;
 			buildPhases = (
-				67F759A519791F22DD2E4DBA799533FF /* Headers */,
-				391F7E00B9CCA032676497E70026B0E5 /* Sources */,
-				B33F09A43DEAA8F79275FE1DDC192941 /* Frameworks */,
-				24729CB535780FAD4D478030B06B4694 /* Resources */,
+				9CF3004F9DA611A4197F76B5A3407B08 /* Headers */,
+				12BB9524896330066B0C3D10AD3DA92F /* Sources */,
+				64491AD1E3EFAC433C4378F497909E98 /* Frameworks */,
+				86784C72109DD2A811E4C010C8C39432 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				758238BE19349541C74BC610AB862E6F /* PBXTargetDependency */,
+				331779FED669D874F549C688649428D0 /* PBXTargetDependency */,
+				344C4D0AA97E3154BC6BC0F4731C3D7D /* PBXTargetDependency */,
 			);
 			name = "Pods-Dami";
 			productName = "Pods-Dami";
-			productReference = AAA16AC455473C7FC995D99B4533140B /* Pods_Dami.framework */;
+			productReference = E9CC1CF0EA9BE0B899C35938E404EC8C /* Pods_Dami.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -258,27 +348,33 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					D4F8239FB329387A8476B964D92D92E7 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5437C4208ED300FD068C08A8D6CD32F8 /* Products */;
+			productRefGroup = 31D2BB97F1B0AAD594EB49D4A5F1558B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */,
+				82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */,
 				EAC3C85E85573768F81F4742E96E1561 /* Pods-Dami */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		24729CB535780FAD4D478030B06B4694 /* Resources */ = {
+		86784C72109DD2A811E4C010C8C39432 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,14 +388,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9BD7A942B6568DAC130B845C7CD07F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		391F7E00B9CCA032676497E70026B0E5 /* Sources */ = {
+		12BB9524896330066B0C3D10AD3DA92F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E6FB00F7E7D0788EFC5B70A0C7FA7BE /* Pods-Dami-dummy.m in Sources */,
+				8F26DEB1FF3DC53BD532B82155634FED /* Pods-Dami-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,14 +422,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD8AA6ECD7048C2FB98943C1A88C0245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B293412387190A62F5526D3AA707E435 /* CircularSlider+Draw.swift in Sources */,
+				DBA9E302BE049D3F49F6C679CDBA55EB /* CircularSlider.swift in Sources */,
+				0D8DAC677F65E225060D756B4163EBAE /* CircularSliderHelper.swift in Sources */,
+				50A626FD2F37916DDF00B9D58BFDE8C8 /* HGCircularSlider-dummy.m in Sources */,
+				B5CDDB1C4F475CFA382669B00B654615 /* MidPointCircularSlider.swift in Sources */,
+				F6FDFE4172E22B1801F881C10D6DA2EE /* RangeCircularSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		758238BE19349541C74BC610AB862E6F /* PBXTargetDependency */ = {
+		331779FED669D874F549C688649428D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FSPagerView;
 			target = D4F8239FB329387A8476B964D92D92E7 /* FSPagerView */;
-			targetProxy = D00AA6F15441DCA2A9AA5877C5D9F966 /* PBXContainerItemProxy */;
+			targetProxy = EA87EC4820F95245E002145A776B775A /* PBXContainerItemProxy */;
+		};
+		344C4D0AA97E3154BC6BC0F4731C3D7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HGCircularSlider;
+			target = 82EEAE7DB07C6F17150BFE2EAD014CB2 /* HGCircularSlider */;
+			targetProxy = A52A4C0AFD43237E4998DD4FB9C4CAF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,47 +517,9 @@
 			};
 			name = Debug;
 		};
-		2C3664563D3CF58DB9B66D239AA5C6F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9187C8684CDDAF77CD39D9C5D8214A /* Pods-Dami.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Dami/Pods-Dami-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Dami/Pods-Dami.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3171F7D7E02ECBA0CBB82D7F8A9B8C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD5BFE9AB1F88634809583A7083D892D /* FSPagerView.xcconfig */;
+			baseConfigurationReference = 4DE556A440AA902DDBACD8E993876F65 /* FSPagerView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -461,7 +545,42 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		327589956ADE9C08EF74087518A4DBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978A346F111E00C65F2D29A1F774CB9B /* HGCircularSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = HGCircularSlider;
+				PRODUCT_NAME = HGCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -528,7 +647,7 @@
 			};
 			name = Release;
 		};
-		4C0E6EFD737D0E215D48F3DC2F87B11B /* Release */ = {
+		74C02AD4421D9C2F611D30FDC3E6DF36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC030D434D0F8087001786D6F57FE82D /* Pods-Dami.release.xcconfig */;
 			buildSettings = {
@@ -569,7 +688,7 @@
 		};
 		79F1D6B6E3EC0C4CA8E84F982AEAF300 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD5BFE9AB1F88634809583A7083D892D /* FSPagerView.xcconfig */;
+			baseConfigurationReference = 4DE556A440AA902DDBACD8E993876F65 /* FSPagerView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -595,13 +714,87 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		84497832DD936270AF6B34BB9812C771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978A346F111E00C65F2D29A1F774CB9B /* HGCircularSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HGCircularSlider/HGCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HGCircularSlider/HGCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = HGCircularSlider;
+				PRODUCT_NAME = HGCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CA6BBA8CA909B0895319DEA556CB204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9187C8684CDDAF77CD39D9C5D8214A /* Pods-Dami.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dami/Pods-Dami-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dami/Pods-Dami.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -615,6 +808,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		255C816C0923FEE093963324871AEF11 /* Build configuration list for PBXNativeTarget "HGCircularSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327589956ADE9C08EF74087518A4DBC7 /* Debug */,
+				84497832DD936270AF6B34BB9812C771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -624,11 +826,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7929B3F3E7AD0CECDEA1E4B512BB55B1 /* Build configuration list for PBXNativeTarget "Pods-Dami" */ = {
+		69237338115A3BD7EA9D20AA41337834 /* Build configuration list for PBXNativeTarget "Pods-Dami" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C3664563D3CF58DB9B66D239AA5C6F8 /* Debug */,
-				4C0E6EFD737D0E215D48F3DC2F87B11B /* Release */,
+				8CA6BBA8CA909B0895319DEA556CB204 /* Debug */,
+				74C02AD4421D9C2F611D30FDC3E6DF36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
